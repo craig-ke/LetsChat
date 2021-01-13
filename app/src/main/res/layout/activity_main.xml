@@ -2,6 +2,14 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" android:layout_height="match_parent">
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView"
+        android:src="@drawable/mine"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/todo" />
+
     <TextView
         android:id="@+id/appNameTextView"
         android:layout_width="wrap_content"
@@ -33,7 +41,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="297dp"
+        android:layout_marginBottom="100dp"
         android:background="@color/colorAccent"
         android:text="@string/find_restaurants"
         android:textColor="@color/colorTextIcons" />

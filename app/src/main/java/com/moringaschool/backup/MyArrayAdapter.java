@@ -20,7 +20,7 @@ public class MyArrayAdapter extends ArrayAdapter {
     public Object getItem(int position){
         String restaurant = mRestaurants[position];
         String cuisine = mCuisines[position];
-        return String.format("%s \n Serves great: %s", restaurant, cuisine);
+        return String.format("%s \n Lets Chat: %s", restaurant, cuisine);
     }
 
     @Override
