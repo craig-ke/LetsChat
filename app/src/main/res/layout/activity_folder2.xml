@@ -14,17 +14,8 @@
         android:layout_below="@+id/locationTextView"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="42dp"
-        android:layout_marginEnd="0dp"
-        android:layout_marginRight="0dp" />
-
-    <Button
-        android:id="@+id/button5"
-        android:layout_width="279dp"
-        android:layout_height="38dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginEnd="25dp"
-        android:layout_marginRight="10dp"
-        android:text="@string/check_me_out" />
+        android:layout_marginTop="-8dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp" />
 
 </RelativeLayout>

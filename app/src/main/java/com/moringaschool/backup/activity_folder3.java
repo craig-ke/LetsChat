@@ -16,12 +16,5 @@ public class activity_folder3 extends AppCompatActivity {
             super.onCreate(savedInstanceState);
             setContentView(R.layout.activity_folder2);
 
-            mCheckMeOut = (Button) findViewById(R.id.button5);
-            mCheckMeOut.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    Toast.makeText(activity_folder3.this, "Hello World!", Toast.LENGTH_LONG).show();
-                }
-            });
         }
     }
