@@ -1,9 +1,10 @@
 <resources>
-    <string name="app_name">Backup</string>
+    <string name="app_name">Lets Chat</string>
     <string name="find_restaurants">LOGIN</string>
     <string name="myrestaurants">LetsChat</string>
     <string name="todo">TODO</string>
     <string name="restaurants_near">Welcome</string>
     <string name="enter_name">Enter Name</string>
     <string name="check_me_out">Check Me Out</string>
+    <string name="about_restaurants">About Us</string>
 </resources>

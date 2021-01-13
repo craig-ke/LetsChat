@@ -37,11 +37,21 @@
         android:autofillHints="" />
 
     <Button
+        android:id="@+id/findAboutButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="57dp"
+        android:background="@color/colorAccent"
+        android:text="@string/about_restaurants"
+        android:textColor="@color/colorTextIcons" />
+
+    <Button
         android:id="@+id/findRestaurantsButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="100dp"
+        android:layout_marginBottom="125dp"
         android:background="@color/colorAccent"
         android:text="@string/find_restaurants"
         android:textColor="@color/colorTextIcons" />
