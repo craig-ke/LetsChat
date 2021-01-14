@@ -19,12 +19,12 @@ public class activity_folder2 extends AppCompatActivity {
     TextView mLocationTextView;
     @BindView(R.id.listView)
     ListView mListView;
-    private String[] restaurants = new String[]{"Kenya", "Uganda",
+    private String[] countries = new String[]{"Kenya", "Uganda",
             "Tanzania", "South Africa", "Zimbabwe", "South Sudan",
             "Sudan", "Nigeria", "Ukraine", "Canada",
             "Nairobi", "Zambia", "Lesotho",
             "China", "Germany"};
-    private String[] cuisines = new String[]{"BREAKING NEWS!!!!Eat healthy", "Before you sleep eat", "Athletes resfuse to run",
+    private String[] news = new String[]{"BREAKING NEWS!!!!Eat healthy", "Before you sleep eat", "Athletes resfuse to run",
             "Before you sleep ,dont forget to wake up!!", "Coffee takes away the lazziness of sleeping", "English Food is filled with a lot of rules!!", "Burgers are too big for life",
             "Fast Food makes life move faster than the wind", "Noodle Soups inect the body with chinese GMO says who??",
             "Mexican wa of life bring life to the new way of living", "BBQ Hawaain chicken is most probably the most intresting thing to try", "Cuban people are too lazy",
@@ -39,7 +39,7 @@ public class activity_folder2 extends AppCompatActivity {
 
         Intent intent = getIntent();
         String location = intent.getStringExtra("location");
-        MyArrayAdapter adapter = new MyArrayAdapter(this, android.R.layout.simple_list_item_1, restaurants, cuisines);
+        MyArrayAdapter adapter = new MyArrayAdapter(this, android.R.layout.simple_list_item_1, countries, news);
         mListView.setAdapter(adapter);
         mListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override

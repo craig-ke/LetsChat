@@ -27,7 +27,7 @@
         android:id="@+id/locationEditText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/findRestaurantsButton"
+        android:layout_above="@+id/findLoginButton"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="66dp"
         android:background="@color/colorTextIcons"
@@ -47,7 +47,7 @@
         android:textColor="@color/colorTextIcons" />
 
     <Button
-        android:id="@+id/findRestaurantsButton"
+        android:id="@+id/findLoginButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
